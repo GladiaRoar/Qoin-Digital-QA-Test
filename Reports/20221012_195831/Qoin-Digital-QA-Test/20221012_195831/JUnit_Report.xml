@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Qoin-Digital-QA-Test" time="13.256" tests="4" failures="0" errors="0">
+   <testsuite name="Qoin-Digital-QA-Test" tests="4" failures="0" errors="0" time="13.256" skipped="0" timestamp="2022-10-12 19:58:36" hostname="muham - DESKTOP-ISTQ93U" id="Test Suites/Qoin-Digital-QA-Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\muham\\git\\Qoin-Digital-QA-Test\\Reports\\20221012_195831\\Qoin-Digital-QA-Test\\20221012_195831"/>
+         <property name="logFiles" value="C:\\Users\\muham\\git\\Qoin-Digital-QA-Test\\Reports\\20221012_195831\\Qoin-Digital-QA-Test\\20221012_195831\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="muham - DESKTOP-ISTQ93U"/>
+         <property name="hostAddress" value="192.168.18.80"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+      </properties>
+      <testcase name="Test Cases/List users" time="5.998" classname="Test Cases/List users" status="PASSED">
+         <system-out><![CDATA[2022-10-12 19:58:36 - [TEST_CASE][PASSED] - Test Cases/List users: Test Cases/List users
+
+2022-10-12 19:58:37 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Get/Get list users")): Send request successfully
+
+2022-10-12 19:58:40 - [MESSAGE][INFO] - HAR: C:\Users\muham\git\Qoin-Digital-QA-Test\Reports\20221012_195831\Qoin-Digital-QA-Test\20221012_195831\requests\main\0.har
+
+2022-10-12 19:58:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-12 19:58:40 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Get/Get list users")): Send request and verify the response successfully
+
+2022-10-12 19:58:41 - [MESSAGE][INFO] - HAR: C:\Users\muham\git\Qoin-Digital-QA-Test\Reports\20221012_195831\Qoin-Digital-QA-Test\20221012_195831\requests\main\1.har
+
+2022-10-12 19:58:41 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-10-12 19:58:41 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-10-12 19:58:41 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-10-12 19:58:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-10-12 19:58:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-12 19:58:41 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-10-12 19:58:42 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-10-12 19:58:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "page", 1): Verify element property value successfully
+
+2022-10-12 19:58:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-12 19:58:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].first_name", "George"): Verify element property value successfully
+
+2022-10-12 19:58:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-12 19:58:42 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-10-12 19:58:42 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-10-12 19:58:42 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-10-12 19:58:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-10-12 19:58:42 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-12 19:58:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "page", 1): Verify element property value successfully
+
+2022-10-12 19:58:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-12 19:58:42 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data.first_name", 6): Verify element count successfully
+
+2022-10-12 19:58:42 - [MESSAGE][PASSED] - Verify element count successfully
+
+2022-10-12 19:58:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].first_name", "George"): Verify element property value successfully
+
+2022-10-12 19:58:42 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User" time="2.428" classname="Test Cases/User" status="PASSED">
+         <system-out><![CDATA[2022-10-12 19:58:42 - [TEST_CASE][PASSED] - Test Cases/User: Test Cases/User
+
+2022-10-12 19:58:43 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Get/Get user")): Send request successfully
+
+2022-10-12 19:58:43 - [MESSAGE][INFO] - HAR: C:\Users\muham\git\Qoin-Digital-QA-Test\Reports\20221012_195831\Qoin-Digital-QA-Test\20221012_195831\requests\main\2.har
+
+2022-10-12 19:58:43 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-12 19:58:43 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Get/Get user")): Send request and verify the response successfully
+
+2022-10-12 19:58:44 - [MESSAGE][INFO] - HAR: C:\Users\muham\git\Qoin-Digital-QA-Test\Reports\20221012_195831\Qoin-Digital-QA-Test\20221012_195831\requests\main\3.har
+
+2022-10-12 19:58:44 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-10-12 19:58:44 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-10-12 19:58:44 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-10-12 19:58:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-10-12 19:58:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-12 19:58:44 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-10-12 19:58:44 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-10-12 19:58:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.id", 3): Verify element property value successfully
+
+2022-10-12 19:58:44 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-12 19:58:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", "emma.wong@reqres.in"): Verify element property value successfully
+
+2022-10-12 19:58:44 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-12 19:58:44 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.first_name", "Emma"): Verify element property value successfully
+
+2022-10-12 19:58:45 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-12 19:58:45 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-10-12 19:58:45 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-10-12 19:58:45 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-10-12 19:58:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-10-12 19:58:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-12 19:58:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.id", 3): Verify element property value successfully
+
+2022-10-12 19:58:45 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-12 19:58:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", "emma.wong@reqres.in"): Verify element property value successfully
+
+2022-10-12 19:58:45 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-12 19:58:45 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.first_name", "Emma"): Verify element property value successfully
+
+2022-10-12 19:58:45 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register" time="2.22" classname="Test Cases/Register" status="PASSED">
+         <system-out><![CDATA[2022-10-12 19:58:45 - [TEST_CASE][PASSED] - Test Cases/Register: Test Cases/Register
+
+2022-10-12 19:58:45 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Post/Register")): Send request successfully
+
+2022-10-12 19:58:46 - [MESSAGE][INFO] - HAR: C:\Users\muham\git\Qoin-Digital-QA-Test\Reports\20221012_195831\Qoin-Digital-QA-Test\20221012_195831\requests\main\4.har
+
+2022-10-12 19:58:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-12 19:58:46 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Post/Register")): Send request and verify the response successfully
+
+2022-10-12 19:58:47 - [MESSAGE][INFO] - HAR: C:\Users\muham\git\Qoin-Digital-QA-Test\Reports\20221012_195831\Qoin-Digital-QA-Test\20221012_195831\requests\main\5.har
+
+2022-10-12 19:58:47 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-10-12 19:58:47 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-10-12 19:58:47 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-10-12 19:58:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-10-12 19:58:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-12 19:58:47 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-10-12 19:58:47 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-10-12 19:58:47 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-10-12 19:58:47 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-10-12 19:58:47 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-10-12 19:58:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-10-12 19:58:47 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Update" time="2.048" classname="Test Cases/Update" status="PASSED">
+         <system-out><![CDATA[2022-10-12 19:58:47 - [TEST_CASE][PASSED] - Test Cases/Update: Test Cases/Update
+
+2022-10-12 19:58:48 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Put/Update")): Send request successfully
+
+2022-10-12 19:58:48 - [MESSAGE][INFO] - HAR: C:\Users\muham\git\Qoin-Digital-QA-Test\Reports\20221012_195831\Qoin-Digital-QA-Test\20221012_195831\requests\main\6.har
+
+2022-10-12 19:58:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-12 19:58:48 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Put/Update")): Send request and verify the response successfully
+
+2022-10-12 19:58:49 - [MESSAGE][INFO] - HAR: C:\Users\muham\git\Qoin-Digital-QA-Test\Reports\20221012_195831\Qoin-Digital-QA-Test\20221012_195831\requests\main\7.har
+
+2022-10-12 19:58:49 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-10-12 19:58:49 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-10-12 19:58:49 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-10-12 19:58:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-10-12 19:58:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-12 19:58:49 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-10-12 19:58:49 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-10-12 19:58:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "QATest001"): Verify element property value successfully
+
+2022-10-12 19:58:49 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-12 19:58:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "job", "QA Enginner"): Verify element property value successfully
+
+2022-10-12 19:58:49 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-10-12 19:58:49 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-10-12 19:58:49 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-10-12 19:58:49 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-10-12 19:58:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-10-12 19:58:49 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-12 19:58:36 - [TEST_SUITE][PASSED] - Qoin-Digital-QA-Test: Test Cases/Update]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

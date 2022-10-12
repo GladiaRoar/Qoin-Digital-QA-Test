@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Qoin-Digital-QA-Test,,,,2022-10-12 19:58:36,2022-10-12 19:58:49,13.256s,PASSED
+,,,,,,,
+Test Cases/List users,,,,2022-10-12 19:58:36,2022-10-12 19:58:42,5.998s,PASSED
+"sendRequest(findTestObject(""Get/Get list users""))",,Send Req,,2022-10-12 19:58:37,2022-10-12 19:58:40,3.155s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Get/Get list users""))",,Send Req and Validate Res,,2022-10-12 19:58:40,2022-10-12 19:58:42,1.896s,PASSED
+"verifyResponseStatusCode(response, 200)",,Validate res status code,,2022-10-12 19:58:42,2022-10-12 19:58:42,0.008s,PASSED
+"verifyElementPropertyValue(response, ""page"", 1)",,Validate number of page,,2022-10-12 19:58:42,2022-10-12 19:58:42,0.057s,PASSED
+"verifyElementsCount(response, ""data.first_name"", 6)",,"Validate total data 
+",,2022-10-12 19:58:42,2022-10-12 19:58:42,0.082s,PASSED
+"verifyElementPropertyValue(response, ""data[0].first_name"", ""George"")",,Validate data,,2022-10-12 19:58:42,2022-10-12 19:58:42,0.045s,PASSED
+,,,,,,,
+Test Cases/User,,,,2022-10-12 19:58:42,2022-10-12 19:58:45,2.428s,PASSED
+"sendRequest(findTestObject(""Get/Get user""))",,,,2022-10-12 19:58:43,2022-10-12 19:58:43,0.555s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Get/Get user""))",,,,2022-10-12 19:58:43,2022-10-12 19:58:45,1.108s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-10-12 19:58:45,2022-10-12 19:58:45,0.008s,PASSED
+"verifyElementPropertyValue(response, ""data.id"", 3)",,,,2022-10-12 19:58:45,2022-10-12 19:58:45,0.071s,PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""emma.wong@reqres.in"")",,,,2022-10-12 19:58:45,2022-10-12 19:58:45,0.073s,PASSED
+"verifyElementPropertyValue(response, ""data.first_name"", ""Emma"")",,,,2022-10-12 19:58:45,2022-10-12 19:58:45,0.057s,PASSED
+,,,,,,,
+Test Cases/Register,,,,2022-10-12 19:58:45,2022-10-12 19:58:47,2.220s,PASSED
+"sendRequest(findTestObject(""Post/Register""))",,,,2022-10-12 19:58:45,2022-10-12 19:58:46,0.620s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Post/Register""))",,,,2022-10-12 19:58:46,2022-10-12 19:58:47,0.922s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-10-12 19:58:47,2022-10-12 19:58:47,0.005s,PASSED
+,,,,,,,
+Test Cases/Update,,,,2022-10-12 19:58:47,2022-10-12 19:58:49,2.048s,PASSED
+"sendRequest(findTestObject(""Put/Update""))",,,,2022-10-12 19:58:48,2022-10-12 19:58:48,0.532s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Put/Update""))",,,,2022-10-12 19:58:48,2022-10-12 19:58:49,0.933s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-10-12 19:58:49,2022-10-12 19:58:49,0.004s,PASSED
